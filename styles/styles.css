@@ -1,0 +1,14 @@
+body {
+    background-color: #984d38;
+    background-image: linear-gradient(90deg, #984d38 0%, #181e41 48%);
+}
+
+.color-span {
+    background: -webkit-linear-gradient(#edb7ff, #a831d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fuente-titulo {
+    font-size: 4rem;
+}
