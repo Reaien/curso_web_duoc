@@ -11,6 +11,10 @@
 </head>
 
 <body class="container-fluid p-0">
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
 
     <!--Seccion de navbar-->
     <header>
@@ -117,7 +121,9 @@
                 </div>
             </div>
             <div class="row mt-5 d-flex align-items-center">
-                <div class="col-md-6"><img class="w-75" src="img/album_portrait_main.jpg" alt="portada album"></div>
+                <div class="col-md-6" id="album-1-container">
+                    
+                </div>
                 <div class="col-md-6">
                     <h3 class="text-light text-opacity-75">
                         "Black Holes and revelations" de Muse, es el mejor album de la historia Lorem ipsum dolor sit
@@ -137,42 +143,9 @@
                     <h1 class="text-white fw-bold">Colección</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 mt-5">
-                    <div class="card bg-white bg-opacity-50">
-                        <img class="rounded my-3 mx-3" src="img/disco_1.webp" alt="producto1">
-                        <p class="fw-semibold ms-3 text-white text-opacity-75">The beatles</p>
-                        <div class="card-body d-flex justify-content-between">
-                            <h5>Abbey Road</h5>
-                            <p>$29.990</p>
-                        </div>
-                        <button type="button" class="btn btn-light mx-5 fw-bold mb-5">Comprar</button>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-5">
-                    <div class="card bg-white bg-opacity-50">
-                        <img class="rounded my-3 mx-3" src="img/disco_2.webp" alt="producto2">
-                        <p class="fw-semibold ms-3 text-white text-opacity-75">Deep Purple</p>
-                        <div class="card-body d-flex justify-content-between">
-                            <h5>Machine Head</h5>
-                            <p>$29.990</p>
-                        </div>
-                        <button type="button" class="btn btn-light mx-5 fw-bold mb-5">Comprar</button>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-5">
-                    <div class="card bg-white bg-opacity-50">
-                        <img class="rounded my-3 mx-3" src="img/disco_3.webp" alt="producto3">
-                        <p class="fw-semibold ms-3 text-white text-opacity-75">David Bowie</p>
-                        <div class="card-body d-flex justify-content-between">
-                            <h5>Aladdin Sane</h5>
-                            <p>$29.990</p>
-                        </div>
-                        <button type="button" class="btn btn-light mx-5 fw-bold mb-5">Comprar</button>
-                    </div>
-                </div>
+            <div class="row" id="albums-container">
+  
             </div>
-
         </section>
 
         <!--Footer-->
@@ -210,6 +183,7 @@
 
     </header>
 
+    <script src="./js/albums_api.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
