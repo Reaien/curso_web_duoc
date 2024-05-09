@@ -5,7 +5,7 @@
             "id": 1,
             "Artista": "Muse",
             "Album": "Black Holes and Revelations",
-            "Caratula": "https://i.imgur.com/zLgD601.jpg",
+            "Caratula": "https://i.ibb.co/56FQB3f/album-portrait-main.jpg",
             "Descripcion": "'Black Holes and revelations' de Muse, es el mejor album de la historia Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa soluta eveniet quo mollitia enim eos, voluptate nulla eum autem nihil at, laboriosam adipisci, ut reprehenderit maiores suscipit est repellendus.",
             "Valor": 20000
         },
@@ -13,7 +13,7 @@
             "id": 2,
             "Artista": "The Beatles",
             "Album": "Abbey Road",
-            "Caratula": "https://i.imgur.com/xnPPcMM.jpg",
+            "Caratula": "https://i.ibb.co/m5bWzCZ/disco-1.webp",
             "Descripcion": "'Black Holes and revelations' de Muse, es el mejor album de la historia Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa soluta eveniet quo mollitia enim eos, voluptate nulla eum autem nihil at, laboriosam adipisci, ut reprehenderit maiores suscipit est repellendus.",
             "Valor": 15000
         },
@@ -21,7 +21,7 @@
             "id": 3,
             "Artista": "Deep Purple",
             "Album": "Machine Head",
-            "Caratula": "https://i.imgur.com/BvoNkhy.jpg",
+            "Caratula": "https://i.ibb.co/VmfGm2d/disco-2.webp",
             "Descripcion": "'Black Holes and revelations' de Muse, es el mejor album de la historia Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa soluta eveniet quo mollitia enim eos, voluptate nulla eum autem nihil at, laboriosam adipisci, ut reprehenderit maiores suscipit est repellendus.",
             "Valor": 10000
         },
@@ -29,7 +29,7 @@
             "id": 4,
             "Artista": "David Bowie",
             "Album": "Aladdin Sane",
-            "Caratula": "https://i.imgur.com/YpJGLkh.jpg",
+            "Caratula": "https://i.ibb.co/K964bgx/disco-3.webp",
             "Descripcion": "'Black Holes and revelations' de Muse, es el mejor album de la historia Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas culpa soluta eveniet quo mollitia enim eos, voluptate nulla eum autem nihil at, laboriosam adipisci, ut reprehenderit maiores suscipit est repellendus.",
             "Valor": 10000
         }
