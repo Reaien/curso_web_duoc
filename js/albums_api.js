@@ -1,16 +1,21 @@
+//Definimos una const que contiene la dirección URL de una API
+
 const urlRest = 'https://my-json-server.typicode.com/Reaien/curso_web_duoc/Albums';
 
+//Utilizamos jQuery para esperar a que el documento esté listo
+//Esto garantiza que el código que está dentro de esta función se ejecute despues de que se haya cargado el documento HTML
 $(document).ready(function(){
     cargarDatos();
 });
 
 function cargarDatos() {
+    //Hacemos el get a la urlRest, una callback function que espera a la respuesta en el parametro que le damos
     $.get(urlRest, function(response) {
-        console.log(response)
-        const albums = response;
+        console.log(response) //verificamos que haya recibido la respuesta
+        const albums = response; //asignamos los datos recibidos a una const
         albums.forEach(album => {
-            
-            if (album.id !== 1) {
+            //iteraremos sobre cada album pasandoselo como parametro
+            if (album.id !== 1) { //para agregar dinamismo en el diseño omitiremos el album con id 1
                 const albumCards = `
                 <div class="col-sm-4 mt-5 " >
                     <div class="card bg-white bg-opacity-50">
@@ -24,6 +29,7 @@ function cargarDatos() {
                     </div>
                 </div>`;
                 $('#albums-container').append(albumCards);
+                //seleccionamos el elemento del DOM que es el id donde insertaremos al final del elemento
             }
             
             
